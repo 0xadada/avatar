@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="660" width="660">
-  <style>
+  <style type="text/css">
+  <![CDATA[
   .a{
     fill:rgb(197, 194, 201);
     stroke:rgb(197, 194, 201);
@@ -8860,6 +8861,7 @@
     fill:rgb(144, 141, 150);
     stroke:rgb(144, 141, 150);
   }
+  ]]>
 </style>
   <polygon class="w"
      points="0,480 10,480 10,470 " />
