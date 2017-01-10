@@ -8,11 +8,8 @@
     for (var i = 0; i < paths.length; i++) {
       let path = paths[i];
       let randTimeout = Math.floor(Math.random() * (1500 - 1) + 1);
-      window.requestAnimationFrame(function() {
-        window.setTimeout(function() {
-          path.classList.add('is-animated');
-        }, randTimeout);
-      });
+      path.style.animationDelay = randTimeout + 'ms';
+      path.classList.add('is-animated');
     }
   }
   // ]]>
@@ -25,7 +22,6 @@
   .p.is-animated {
     animation-name: slide-into-place;
     animation-duration: 1s;
-    animation-delay: 1s;
     animation-timing-function: ease;
     animation-direction: normal;
     animation-iteration-count: 1;
